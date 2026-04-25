@@ -1,0 +1,27 @@
+# AutoStream Agent — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# --- Core Framework ---
+langchain==0.3.25
+langchain-core==0.3.57
+langchain-community==0.3.23
+langgraph==0.4.1
+
+# --- LLM Providers (install at least one) ---
+langchain-anthropic==0.3.11       # Claude Haiku / Sonnet / Opus
+langchain-openai==0.3.14          # GPT-4o-mini
+langchain-google-genai==2.1.4     # Gemini 1.5 Flash
+
+# --- API Server (WhatsApp webhook + REST) ---
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+httpx==0.28.1                     # Async HTTP client for outbound WhatsApp calls
+pydantic==2.11.4
+
+# --- Utilities ---
+python-dotenv==1.1.0              # .env file loading
+typing-extensions==4.13.2
+
+# --- Testing ---
+pytest==8.3.5
+pytest-asyncio==0.26.0
