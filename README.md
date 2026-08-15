@@ -1,4 +1,4 @@
-# AutoStream AI Agent 🎬
+#**Conversational Lead Generation AI Agent** 🎬
 > Social-to-Lead Agentic Workflow | Built with LangGraph + RAG + Tool Calling
 
 A production-grade conversational AI sales agent for **AutoStream** — a SaaS platform offering automated video editing tools for content creators. The agent qualifies leads through natural conversation, retrieves accurate product knowledge via RAG, and captures user details via a mock CRM API.
